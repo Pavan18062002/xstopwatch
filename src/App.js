@@ -42,7 +42,7 @@ function App() {
    <div style={formStyle}>
     <h1>Stopwatch</h1>
     <p>Time: {formatTime(elapsedTime)}</p>
-    <button onClick={toggleTime}>{isRunning ? "stop" : "start"}</button>
+    <button onClick={toggleTime}>{isRunning ? "Stop" : "Start"}</button>
     <button onClick={reset}>Reset</button>
    </div>
   );
